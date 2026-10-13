@@ -1,2 +1,14 @@
+
+[project]
+name = "testforestfires"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask",
+    "numpy",
+    "pandas",
+    "scikit-learn"
+]
+
 [tool.vercel]
-entrypoint = "application:application"
+entrypoint = "application.py"
